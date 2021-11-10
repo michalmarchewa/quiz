@@ -23,7 +23,7 @@ const initialState: QuizState = {
   quizes: [],
 };
 
-const QuizReducer = (state: QuizState = initialState, action: Action) => {
+const quizReducer = (state: QuizState = initialState, action: Action) => {
   switch (action.type) {
     case ActionType.SEARCH_QUIZZES:
       return { loading: true, error: null, quizes: [] };
@@ -36,4 +36,4 @@ const QuizReducer = (state: QuizState = initialState, action: Action) => {
   }
 };
 
-export default QuizReducer;
+export default quizReducer;
