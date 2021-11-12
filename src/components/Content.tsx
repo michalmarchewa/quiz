@@ -1,12 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
+import CreateQuiz from './views/CreateQuiz';
 import MainPage from './views/MainPage';
 import QuizView from './views/QuizView';
 
-const Content = () => {
+const Content: React.FC = () => {
   return (
     <Routes>
       <Route path='/' element={<MainPage />} />
-      <Route path='quizy' element={<QuizView />} />
+      <Route path='quizzes' element={<QuizView />} />
+      <Route path='createquiz' element={<CreateQuiz />} />
       <Route
         path='*'
         element={

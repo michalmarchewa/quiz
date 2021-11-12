@@ -1,7 +1,7 @@
-import Nav from '../Nav';
+import Template from '../template/Template';
 
-const MainPage = () => {
-  return <Nav />;
+const MainPage: React.FC = () => {
+  return <Template>Cześć!</Template>;
 };
 
 export default MainPage;

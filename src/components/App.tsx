@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import Content from './Content';
-import './app.css'
-const App = () => {
+import './styles/app.css'
+const App:React.FC = () => {
   return (
     <Router>
       <Content />
