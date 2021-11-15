@@ -1,0 +1,23 @@
+.svg-inline--fa.fa-w-16,
+.svg-inline--fa.fa-w-14 {
+  width: 2em;
+}
+
+.svg-inline--fa {
+  height: 2em;
+}
+
+svg {
+  color: black;
+}
+.linkedin:hover {
+  color: #0e76a8;
+}
+
+.twitter:hover {
+  color: #00acee;
+}
+
+.github:hover {
+  color: #6e5494;
+}

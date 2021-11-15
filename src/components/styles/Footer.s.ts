@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 export const FooterDiv = styled.div`
   display: flex;
   justify-content: center;
@@ -10,7 +11,7 @@ export const FooterText = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  margin-left: 3em;
+  margin: 0 3em;
 `;
 
 export const FooterImg = styled.div`
@@ -18,8 +19,9 @@ export const FooterImg = styled.div`
   height: 100px;
 `;
 
-export const FooterIcon = styled.div`
-  height: 50px;
-  width: 50px;
-  position: relative;
+export const FooterSocialIcon = styled.div`
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
